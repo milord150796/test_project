@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 .header {
@@ -336,21 +337,6 @@ body {
 
 
 @media (max-width: 768px) {
-
-    .nav-links,
-    .buttons {
-        display: none;
-    }
-
-    .buttons-nav,
-    .burger-menu {
-        display: flex;
-    }
-
-    .header {
-        display: block;
-    }
-
     .logo {
         padding: 0 15px;
     }
@@ -366,5 +352,22 @@ body {
     .acc-item .acc-body p {
         padding: 13px;
         font-size: 15px;
+    }
+}
+
+@media (max-width: 810px){
+    .burger-menu{
+        display: flex;
+    }
+    .buttons-nav {
+        display: flex;
+        margin: 0 0 8px;
+    }    
+    .nav-links,
+    .buttons {
+        display: none;
+    }
+    .header {
+        display: block;
     }
 }
