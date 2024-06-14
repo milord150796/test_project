@@ -77,6 +77,7 @@ body {
     transition: transform 0.3s ease 0s;
     transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;    
     margin-right: 15px;
+    white-space: nowrap;
 }
 .logo a{
     padding: 10px 0 5px;
@@ -104,7 +105,7 @@ body {
     background-color: #b62124;
     color: #fff;
     border-radius: 5px;
-
+    white-space: nowrap;
 }
 
 .buttons .login {
@@ -138,7 +139,7 @@ body {
     position: fixed;
     top: 0;
     left: -100%;
-    width: 40%;
+    width: 60%;
     height: 100%;
     padding: 10px 20px;
     transition: left 0.3s ease-in-out;
