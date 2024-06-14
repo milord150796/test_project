@@ -82,7 +82,7 @@ body {
 }
 
 .logo a {
-    padding: 10px 0 5px;
+    margin: 5px;
 }
 
 .logo-img {
@@ -334,12 +334,16 @@ body {
     color: #515151;
 }
 
+.butoon-nav{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    margin: 0 5px ;
+    padding: 0 10px 0 0;
+}   
 
 
 @media (max-width: 768px) {
-    .logo {
-        padding: 0 15px;
-    }
 
     .acc-item .acc-head {
         padding: 13px;
@@ -356,9 +360,18 @@ body {
 }
 
 @media (max-width: 810px){
+    .logo {
+        padding: 0 5px;
+    }
     .burger-menu{
         display: flex;
+        margin: 7px;
     }
+    .buttons-nav .login,
+    .register{
+        margin: 0 7px;
+    }
+    
     .buttons-nav {
         display: flex;
         margin: 0 0 8px;
