@@ -291,12 +291,12 @@ body {
         display: none;
     }
 
+    .buttons-nav,
     .burger-menu {
         display: flex;
     }
-
-    .buttons-nav {
-        display: flex;
+    .header{
+        display: block;
     }
     .logo{
         padding: 0 15px;
