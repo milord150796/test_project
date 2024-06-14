@@ -332,6 +332,24 @@ body {
     color: #515151;
 }
 
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    z-index: 1000;
+    background-color: unset;
+}
+
+#scroll-to-top._active {
+    opacity: 1;
+}
+
 
 
 @media (max-width: 768px) {
