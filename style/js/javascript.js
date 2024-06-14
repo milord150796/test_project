@@ -17,3 +17,29 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const accHeads = document.querySelectorAll('.acc-head');
+
+    accHeads.forEach(accHead => {
+        accHead.addEventListener('click', function () {
+            const accItem = this.closest('.acc-item');
+            if (!accItem) return;
+
+
+            accItem.classList.toggle('active');
+
+
+            const arrow = this.querySelector('.arrow');
+            if (arrow) {
+                arrow.classList.toggle('rotate');
+            }
+
+
+            const accBody = accItem.querySelector('.acc-body');
+            if (accBody) {
+                accBody.classList.toggle('active');
+            }
+        });
+    });
+});
